@@ -120,7 +120,7 @@ class WelcomePage extends AbstractWelcomePage {
         super.componentDidMount();
 
         //tearhear18 object override//
-        interfaceConfig.APP_NAME = "Wallo App"
+        // interfaceConfig.APP_NAME = "Wallo App"
 
         document.body.classList.add('welcome-page');
         document.title = interfaceConfig.APP_NAME;
