@@ -27,7 +27,7 @@ var interfaceConfig = {
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
     DISPLAY_WELCOME_PAGE_CONTENT: true,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
-    APP_NAME: 'Wallo Meet App',
+    APP_NAME: 'Wallo Meet App 12312312312312',
     NATIVE_APP_NAME: 'Wallo Meet App',
     PROVIDER_NAME: 'Wallo Meet App',
     LANG_DETECTION: true, // Allow i18n to detect the system language
