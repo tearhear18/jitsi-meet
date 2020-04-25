@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars, no-var, max-len */
-
 var interfaceConfig = {
     // TO FIX: this needs to be handled from SASS variables. There are some
     // methods allowing to use variables both in css and js.
@@ -28,9 +27,9 @@ var interfaceConfig = {
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
     DISPLAY_WELCOME_PAGE_CONTENT: true,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
-    APP_NAME: 'Jitsi Meet',
-    NATIVE_APP_NAME: 'Jitsi Meet',
-    PROVIDER_NAME: 'Jitsi',
+    APP_NAME: 'Wallo Meet App',
+    NATIVE_APP_NAME: 'Wallo Meet App',
+    PROVIDER_NAME: 'Wallo Meet App',
     LANG_DETECTION: true, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 
@@ -117,12 +116,12 @@ var interfaceConfig = {
      */
     MOBILE_APP_PROMO: true,
 
-    /**
+    *
      * Maximum coeficient of the ratio of the large video to the visible area
      * after the large video is scaled to fit the window.
      *
      * @type {number}
-     */
+     
     MAXIMUM_ZOOMING_COEFFICIENT: 1.3,
 
     /*

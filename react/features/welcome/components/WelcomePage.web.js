@@ -119,9 +119,12 @@ class WelcomePage extends AbstractWelcomePage {
     componentDidMount() {
         super.componentDidMount();
 
+        //tearhear18 object override//
+        interfaceConfig.APP_NAME = "Wallo App"
+
         document.body.classList.add('welcome-page');
         document.title = interfaceConfig.APP_NAME;
-
+        
         if (this.state.generateRoomnames) {
             this._updateRoomname();
         }
